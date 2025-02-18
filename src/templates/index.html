@@ -1,4 +1,7 @@
-<h1>Hello world</h1>
+{{title}}</br>
+{{request.user}}
+<hr>
+<br>
 <form method="POST" action="">{% csrf_token %}
 {{form.as_p}}
 <input type="submit" value="Sign Up"/> 
